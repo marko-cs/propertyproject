@@ -1,0 +1,12 @@
+==> raw/001_11ae_2022_20230919-192742.csv <==
+"11ae -- Väestönmuutokset ja väkiluku alueittain, 1990-2022"
+
+==> raw/001_11ra_2022_20230919-193747.csv <==
+"11ra -- Tunnuslukuja väestöstä alueittain, 1990-2022"
+
+==> raw/003_139f_2040_20230919-193133.csv <==
+"139f -- Väestöennuste 2021: Väestö iän ja sukupuolen mukaan alueittain, 2021-2040"
+
+==> raw/010_12f8_2021_20230919-175527.csv <==
+"12f8 -- 10. Kaikki tietoryhmät kunnittain, 2010-2021"
+Fix char encoding with command: iconv -f ISO-8859-1 010_12f8_2021_20230919-175527.csv > Fixed_010_12f8_2021_20230919-175527.csv

@@ -1,0 +1,860 @@
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   City                       309 non-null    object 
+ 1   2010_taloudet_yhteensa_te  309 non-null    float64
+ 2   2011_taloudet_yhteensa_te  309 non-null    float64
+ 3   2012_taloudet_yhteensa_te  309 non-null    float64
+ 4   2013_taloudet_yhteensa_te  309 non-null    float64
+ 5   2014_taloudet_yhteensa_te  309 non-null    float64
+ 6   2015_taloudet_yhteensa_te  309 non-null    float64
+ 7   2016_taloudet_yhteensa_te  309 non-null    float64
+ 8   2017_taloudet_yhteensa_te  309 non-null    float64
+ 9   2018_taloudet_yhteensa_te  309 non-null    float64
+ 10  2019_taloudet_yhteensa_te  309 non-null    float64
+ 11  2020_taloudet_yhteensa_te  309 non-null    float64
+ 12  2021_taloudet_yhteensa_te  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   City                       309 non-null    object 
+ 1   2010_asukkaat_yhteensa_he  309 non-null    float64
+ 2   2011_asukkaat_yhteensa_he  309 non-null    float64
+ 3   2012_asukkaat_yhteensa_he  309 non-null    float64
+ 4   2013_asukkaat_yhteensa_he  309 non-null    float64
+ 5   2014_asukkaat_yhteensa_he  309 non-null    float64
+ 6   2015_asukkaat_yhteensa_he  309 non-null    float64
+ 7   2016_asukkaat_yhteensa_he  309 non-null    float64
+ 8   2017_asukkaat_yhteensa_he  309 non-null    float64
+ 9   2018_asukkaat_yhteensa_he  309 non-null    float64
+ 10  2019_asukkaat_yhteensa_he  309 non-null    float64
+ 11  2020_asukkaat_yhteensa_he  309 non-null    float64
+ 12  2021_asukkaat_yhteensa_he  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                            Non-Null Count  Dtype  
+---  ------                            --------------  -----  
+ 0   City                              309 non-null    object 
+ 1   2010_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 2   2011_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 3   2012_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 4   2013_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 5   2014_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 6   2015_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 7   2016_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 8   2017_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 9   2018_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 10  2019_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 11  2020_asukkaiden_mediaanitulot_hr  309 non-null    float64
+ 12  2021_asukkaiden_mediaanitulot_hr  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                 Non-Null Count  Dtype  
+---  ------                                 --------------  -----  
+ 0   City                                   309 non-null    object 
+ 1   2010_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 2   2011_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 3   2012_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 4   2013_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 5   2014_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 6   2015_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 7   2016_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 8   2017_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 9   2018_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 10  2019_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 11  2020_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+ 12  2021_18_vuotta_tayttaneet_yhteensa_ko  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                        Non-Null Count  Dtype  
+---  ------                        --------------  -----  
+ 0   City                          309 non-null    object 
+ 1   2010_talouksien_keskikoko_te  309 non-null    float64
+ 2   2011_talouksien_keskikoko_te  309 non-null    float64
+ 3   2012_talouksien_keskikoko_te  309 non-null    float64
+ 4   2013_talouksien_keskikoko_te  309 non-null    float64
+ 5   2014_talouksien_keskikoko_te  309 non-null    float64
+ 6   2015_talouksien_keskikoko_te  309 non-null    float64
+ 7   2016_talouksien_keskikoko_te  309 non-null    float64
+ 8   2017_talouksien_keskikoko_te  309 non-null    float64
+ 9   2018_talouksien_keskikoko_te  309 non-null    float64
+ 10  2019_talouksien_keskikoko_te  309 non-null    float64
+ 11  2020_talouksien_keskikoko_te  309 non-null    float64
+ 12  2021_talouksien_keskikoko_te  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                             Non-Null Count  Dtype  
+---  ------                                             --------------  -----  
+ 0   City                                               309 non-null    object 
+ 1   2010_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 2   2011_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 3   2012_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 4   2013_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 5   2014_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 6   2015_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 7   2016_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 8   2017_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 9   2018_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 10  2019_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 11  2020_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 12  2021_ylemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                 Non-Null Count  Dtype  
+---  ------                                 --------------  -----  
+ 0   City                                   309 non-null    object 
+ 1   2010_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 2   2011_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 3   2012_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 4   2013_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 5   2014_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 6   2015_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 7   2016_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 8   2017_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 9   2018_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 10  2019_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 11  2020_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+ 12  2021_18_vuotta_tayttaneet_yhteensa_hr  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                           Non-Null Count  Dtype  
+---  ------                                           --------------  -----  
+ 0   City                                             309 non-null    object 
+ 1   2010_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 2   2011_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 3   2012_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 4   2013_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 5   2014_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 6   2015_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 7   2016_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 8   2017_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 9   2018_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 10  2019_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 11  2020_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 12  2021_alimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   City            309 non-null    object 
+ 1   2010_naiset_he  309 non-null    float64
+ 2   2011_naiset_he  309 non-null    float64
+ 3   2012_naiset_he  309 non-null    float64
+ 4   2013_naiset_he  309 non-null    float64
+ 5   2014_naiset_he  309 non-null    float64
+ 6   2015_naiset_he  309 non-null    float64
+ 7   2016_naiset_he  309 non-null    float64
+ 8   2017_naiset_he  309 non-null    float64
+ 9   2018_naiset_he  309 non-null    float64
+ 10  2019_naiset_he  309 non-null    float64
+ 11  2020_naiset_he  309 non-null    float64
+ 12  2021_naiset_he  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   City            309 non-null    object 
+ 1   2010_miehet_he  309 non-null    float64
+ 2   2011_miehet_he  309 non-null    float64
+ 3   2012_miehet_he  309 non-null    float64
+ 4   2013_miehet_he  309 non-null    float64
+ 5   2014_miehet_he  309 non-null    float64
+ 6   2015_miehet_he  309 non-null    float64
+ 7   2016_miehet_he  309 non-null    float64
+ 8   2017_miehet_he  309 non-null    float64
+ 9   2018_miehet_he  309 non-null    float64
+ 10  2019_miehet_he  309 non-null    float64
+ 11  2020_miehet_he  309 non-null    float64
+ 12  2021_miehet_he  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                           Non-Null Count  Dtype  
+---  ------                                           --------------  -----  
+ 0   City                                             309 non-null    object 
+ 1   2010_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 2   2011_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 3   2012_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 4   2013_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 5   2014_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 6   2015_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 7   2016_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 8   2017_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 9   2018_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 10  2019_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 11  2020_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 12  2021_ylimpaan_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                             Non-Null Count  Dtype  
+---  ------                                             --------------  -----  
+ 0   City                                               309 non-null    object 
+ 1   2010_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 2   2011_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 3   2012_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 4   2013_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 5   2014_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 6   2015_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 7   2016_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 8   2017_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 9   2018_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 10  2019_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 11  2020_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+ 12  2021_alemman_korkeakoulututkinnon_suorittaneet_ko  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                               Non-Null Count  Dtype  
+---  ------                               --------------  -----  
+ 0   City                                 309 non-null    object 
+ 1   2010_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 2   2011_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 3   2012_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 4   2013_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 5   2014_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 6   2015_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 7   2016_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 8   2017_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 9   2018_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 10  2019_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 11  2020_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+ 12  2021_asukkaiden_ostovoimakertyma_hr  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                        Non-Null Count  Dtype  
+---  ------                        --------------  -----  
+ 0   City                          309 non-null    object 
+ 1   2010_asukkaiden_keski_ika_he  309 non-null    float64
+ 2   2011_asukkaiden_keski_ika_he  309 non-null    float64
+ 3   2012_asukkaiden_keski_ika_he  309 non-null    float64
+ 4   2013_asukkaiden_keski_ika_he  309 non-null    float64
+ 5   2014_asukkaiden_keski_ika_he  309 non-null    float64
+ 6   2015_asukkaiden_keski_ika_he  309 non-null    float64
+ 7   2016_asukkaiden_keski_ika_he  309 non-null    float64
+ 8   2017_asukkaiden_keski_ika_he  309 non-null    float64
+ 9   2018_asukkaiden_keski_ika_he  309 non-null    float64
+ 10  2019_asukkaiden_keski_ika_he  309 non-null    float64
+ 11  2020_asukkaiden_keski_ika_he  309 non-null    float64
+ 12  2021_asukkaiden_keski_ika_he  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                         Non-Null Count  Dtype  
+---  ------                         --------------  -----  
+ 0   City                           309 non-null    object 
+ 1   2010_asukkaiden_keskitulot_hr  309 non-null    float64
+ 2   2011_asukkaiden_keskitulot_hr  309 non-null    float64
+ 3   2012_asukkaiden_keskitulot_hr  309 non-null    float64
+ 4   2013_asukkaiden_keskitulot_hr  309 non-null    float64
+ 5   2014_asukkaiden_keskitulot_hr  309 non-null    float64
+ 6   2015_asukkaiden_keskitulot_hr  309 non-null    float64
+ 7   2016_asukkaiden_keskitulot_hr  309 non-null    float64
+ 8   2017_asukkaiden_keskitulot_hr  309 non-null    float64
+ 9   2018_asukkaiden_keskitulot_hr  309 non-null    float64
+ 10  2019_asukkaiden_keskitulot_hr  309 non-null    float64
+ 11  2020_asukkaiden_keskitulot_hr  309 non-null    float64
+ 12  2021_asukkaiden_keskitulot_hr  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                            Non-Null Count  Dtype  
+---  ------                            --------------  -----  
+ 0   City                              309 non-null    object 
+ 1   2010_perusasteen_suorittaneet_ko  309 non-null    float64
+ 2   2011_perusasteen_suorittaneet_ko  309 non-null    float64
+ 3   2012_perusasteen_suorittaneet_ko  309 non-null    float64
+ 4   2013_perusasteen_suorittaneet_ko  309 non-null    float64
+ 5   2014_perusasteen_suorittaneet_ko  309 non-null    float64
+ 6   2015_perusasteen_suorittaneet_ko  309 non-null    float64
+ 7   2016_perusasteen_suorittaneet_ko  309 non-null    float64
+ 8   2017_perusasteen_suorittaneet_ko  309 non-null    float64
+ 9   2018_perusasteen_suorittaneet_ko  309 non-null    float64
+ 10  2019_perusasteen_suorittaneet_ko  309 non-null    float64
+ 11  2020_perusasteen_suorittaneet_ko  309 non-null    float64
+ 12  2021_perusasteen_suorittaneet_ko  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                                Non-Null Count  Dtype  
+---  ------                                                --------------  -----  
+ 0   City                                                  309 non-null    object 
+ 1   2010_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 2   2011_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 3   2012_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 4   2013_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 5   2014_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 6   2015_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 7   2016_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 8   2017_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 9   2018_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 10  2019_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 11  2020_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+ 12  2021_keskimmaiseen_tuloluokkaan_kuuluvat_asukkaat_hr  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                       Non-Null Count  Dtype  
+---  ------                       --------------  -----  
+ 0   City                         309 non-null    object 
+ 1   2010_koulutetut_yhteensa_ko  309 non-null    float64
+ 2   2011_koulutetut_yhteensa_ko  309 non-null    float64
+ 3   2012_koulutetut_yhteensa_ko  309 non-null    float64
+ 4   2013_koulutetut_yhteensa_ko  309 non-null    float64
+ 5   2014_koulutetut_yhteensa_ko  309 non-null    float64
+ 6   2015_koulutetut_yhteensa_ko  309 non-null    float64
+ 7   2016_koulutetut_yhteensa_ko  309 non-null    float64
+ 8   2017_koulutetut_yhteensa_ko  309 non-null    float64
+ 9   2018_koulutetut_yhteensa_ko  309 non-null    float64
+ 10  2019_koulutetut_yhteensa_ko  309 non-null    float64
+ 11  2020_koulutetut_yhteensa_ko  309 non-null    float64
+ 12  2021_koulutetut_yhteensa_ko  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                    Non-Null Count  Dtype  
+---  ------                                    --------------  -----  
+ 0   City                                      309 non-null    object 
+ 1   2010_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 2   2011_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 3   2012_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 4   2013_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 5   2014_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 6   2015_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 7   2016_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 8   2017_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 9   2018_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 10  2019_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 11  2020_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+ 12  2021_ylioppilastutkinnon_suorittaneet_ko  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                       Non-Null Count  Dtype  
+---  ------                                       --------------  -----  
+ 0   City                                         309 non-null    object 
+ 1   2010_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 2   2011_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 3   2012_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 4   2013_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 5   2014_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 6   2015_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 7   2016_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 8   2017_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 9   2018_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 10  2019_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 11  2020_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+ 12  2021_ammatillisen_tutkinnon_suorittaneet_ko  309 non-null    float64
+dtypes: float64(12), object(1)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                         Non-Null Count  Dtype  
+---  ------                         --------------  -----  
+ 0   City                           309 non-null    object 
+ 1   2011_vaestollinen_huoltosuhde  309 non-null    float64
+ 2   2012_vaestollinen_huoltosuhde  309 non-null    float64
+ 3   2013_vaestollinen_huoltosuhde  309 non-null    float64
+ 4   2014_vaestollinen_huoltosuhde  309 non-null    float64
+ 5   2015_vaestollinen_huoltosuhde  309 non-null    float64
+ 6   2016_vaestollinen_huoltosuhde  309 non-null    float64
+ 7   2017_vaestollinen_huoltosuhde  309 non-null    float64
+ 8   2018_vaestollinen_huoltosuhde  309 non-null    float64
+ 9   2019_vaestollinen_huoltosuhde  309 non-null    float64
+ 10  2020_vaestollinen_huoltosuhde  309 non-null    float64
+ 11  2021_vaestollinen_huoltosuhde  309 non-null    float64
+ 12  2022_vaestollinen_huoltosuhde  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   City               309 non-null    object 
+ 1   2011_vaesto_31_12  309 non-null    float64
+ 2   2012_vaesto_31_12  309 non-null    float64
+ 3   2013_vaesto_31_12  309 non-null    float64
+ 4   2014_vaesto_31_12  309 non-null    float64
+ 5   2015_vaesto_31_12  309 non-null    float64
+ 6   2016_vaesto_31_12  309 non-null    float64
+ 7   2017_vaesto_31_12  309 non-null    float64
+ 8   2018_vaesto_31_12  309 non-null    float64
+ 9   2019_vaesto_31_12  309 non-null    float64
+ 10  2020_vaesto_31_12  309 non-null    float64
+ 11  2021_vaesto_31_12  309 non-null    float64
+ 12  2022_vaesto_31_12  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                          Non-Null Count  Dtype  
+---  ------                          --------------  -----  
+ 0   City                            309 non-null    object 
+ 1   2011_taloudellinen_huoltosuhde  309 non-null    float64
+ 2   2012_taloudellinen_huoltosuhde  309 non-null    float64
+ 3   2013_taloudellinen_huoltosuhde  309 non-null    float64
+ 4   2014_taloudellinen_huoltosuhde  309 non-null    float64
+ 5   2015_taloudellinen_huoltosuhde  309 non-null    float64
+ 6   2016_taloudellinen_huoltosuhde  309 non-null    float64
+ 7   2017_taloudellinen_huoltosuhde  309 non-null    float64
+ 8   2018_taloudellinen_huoltosuhde  309 non-null    float64
+ 9   2019_taloudellinen_huoltosuhde  309 non-null    float64
+ 10  2020_taloudellinen_huoltosuhde  309 non-null    float64
+ 11  2021_taloudellinen_huoltosuhde  309 non-null    float64
+ 12  2022_taloudellinen_huoltosuhde  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   City                  309 non-null    object 
+ 1   2011_ruotsinkielisia  309 non-null    float64
+ 2   2012_ruotsinkielisia  309 non-null    float64
+ 3   2013_ruotsinkielisia  309 non-null    float64
+ 4   2014_ruotsinkielisia  309 non-null    float64
+ 5   2015_ruotsinkielisia  309 non-null    float64
+ 6   2016_ruotsinkielisia  309 non-null    float64
+ 7   2017_ruotsinkielisia  309 non-null    float64
+ 8   2018_ruotsinkielisia  309 non-null    float64
+ 9   2019_ruotsinkielisia  309 non-null    float64
+ 10  2020_ruotsinkielisia  309 non-null    float64
+ 11  2021_ruotsinkielisia  309 non-null    float64
+ 12  2022_ruotsinkielisia  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                      Non-Null Count  Dtype  
+---  ------                      --------------  -----  
+ 0   City                        309 non-null    object 
+ 1   2011_ulkomailla_syntyneita  309 non-null    float64
+ 2   2012_ulkomailla_syntyneita  309 non-null    float64
+ 3   2013_ulkomailla_syntyneita  309 non-null    float64
+ 4   2014_ulkomailla_syntyneita  309 non-null    float64
+ 5   2015_ulkomailla_syntyneita  309 non-null    float64
+ 6   2016_ulkomailla_syntyneita  309 non-null    float64
+ 7   2017_ulkomailla_syntyneita  309 non-null    float64
+ 8   2018_ulkomailla_syntyneita  309 non-null    float64
+ 9   2019_ulkomailla_syntyneita  309 non-null    float64
+ 10  2020_ulkomailla_syntyneita  309 non-null    float64
+ 11  2021_ulkomailla_syntyneita  309 non-null    float64
+ 12  2022_ulkomailla_syntyneita  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column               Non-Null Count  Dtype  
+---  ------               --------------  -----  
+ 0   City                 309 non-null    object 
+ 1   2011_saamenkielisia  309 non-null    float64
+ 2   2012_saamenkielisia  309 non-null    float64
+ 3   2013_saamenkielisia  309 non-null    float64
+ 4   2014_saamenkielisia  309 non-null    float64
+ 5   2015_saamenkielisia  309 non-null    float64
+ 6   2016_saamenkielisia  309 non-null    float64
+ 7   2017_saamenkielisia  309 non-null    float64
+ 8   2018_saamenkielisia  309 non-null    float64
+ 9   2019_saamenkielisia  309 non-null    float64
+ 10  2020_saamenkielisia  309 non-null    float64
+ 11  2021_saamenkielisia  309 non-null    float64
+ 12  2022_saamenkielisia  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column               Non-Null Count  Dtype  
+---  ------               --------------  -----  
+ 0   City                 309 non-null    object 
+ 1   2011_vieraskielisia  309 non-null    float64
+ 2   2012_vieraskielisia  309 non-null    float64
+ 3   2013_vieraskielisia  309 non-null    float64
+ 4   2014_vieraskielisia  309 non-null    float64
+ 5   2015_vieraskielisia  309 non-null    float64
+ 6   2016_vieraskielisia  309 non-null    float64
+ 7   2017_vieraskielisia  309 non-null    float64
+ 8   2018_vieraskielisia  309 non-null    float64
+ 9   2019_vieraskielisia  309 non-null    float64
+ 10  2020_vieraskielisia  309 non-null    float64
+ 11  2021_vieraskielisia  309 non-null    float64
+ 12  2022_vieraskielisia  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                      Non-Null Count  Dtype  
+---  ------                      --------------  -----  
+ 0   City                        309 non-null    object 
+ 1   2011_ulkomaalaistaustaisia  309 non-null    float64
+ 2   2012_ulkomaalaistaustaisia  309 non-null    float64
+ 3   2013_ulkomaalaistaustaisia  309 non-null    float64
+ 4   2014_ulkomaalaistaustaisia  309 non-null    float64
+ 5   2015_ulkomaalaistaustaisia  309 non-null    float64
+ 6   2016_ulkomaalaistaustaisia  309 non-null    float64
+ 7   2017_ulkomaalaistaustaisia  309 non-null    float64
+ 8   2018_ulkomaalaistaustaisia  309 non-null    float64
+ 9   2019_ulkomaalaistaustaisia  309 non-null    float64
+ 10  2020_ulkomaalaistaustaisia  309 non-null    float64
+ 11  2021_ulkomaalaistaustaisia  309 non-null    float64
+ 12  2022_ulkomaalaistaustaisia  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                                Non-Null Count  Dtype  
+---  ------                                                --------------  -----  
+ 0   City                                                  309 non-null    object 
+ 1   2011_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 2   2012_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 3   2013_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 4   2014_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 5   2015_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 6   2016_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 7   2017_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 8   2018_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 9   2019_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 10  2020_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 11  2021_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    float64
+ 12  2022_alueella_syntyneita_jotka_ovat_suomen_vaestossa  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                             Non-Null Count  Dtype  
+---  ------                                             --------------  -----  
+ 0   City                                               309 non-null    object 
+ 1   2011_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 2   2012_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 3   2013_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 4   2014_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 5   2015_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 6   2016_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 7   2017_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 8   2018_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 9   2019_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 10  2020_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 11  2021_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    float64
+ 12  2022_alueella_asuvia_jotka_ovat_syntyneet_muualla  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   City               309 non-null    object 
+ 1   2011_maapinta_ala  309 non-null    float64
+ 2   2012_maapinta_ala  309 non-null    float64
+ 3   2013_maapinta_ala  309 non-null    float64
+ 4   2014_maapinta_ala  309 non-null    float64
+ 5   2015_maapinta_ala  309 non-null    float64
+ 6   2016_maapinta_ala  309 non-null    float64
+ 7   2017_maapinta_ala  309 non-null    float64
+ 8   2018_maapinta_ala  309 non-null    float64
+ 9   2019_maapinta_ala  309 non-null    float64
+ 10  2020_maapinta_ala  309 non-null    float64
+ 11  2021_maapinta_ala  309 non-null    float64
+ 12  2022_maapinta_ala  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   City                       309 non-null    object 
+ 1   2011_ulkomaan_kansalaisia  309 non-null    float64
+ 2   2012_ulkomaan_kansalaisia  309 non-null    float64
+ 3   2013_ulkomaan_kansalaisia  309 non-null    float64
+ 4   2014_ulkomaan_kansalaisia  309 non-null    float64
+ 5   2015_ulkomaan_kansalaisia  309 non-null    float64
+ 6   2016_ulkomaan_kansalaisia  309 non-null    float64
+ 7   2017_ulkomaan_kansalaisia  309 non-null    float64
+ 8   2018_ulkomaan_kansalaisia  309 non-null    float64
+ 9   2019_ulkomaan_kansalaisia  309 non-null    float64
+ 10  2020_ulkomaan_kansalaisia  309 non-null    float64
+ 11  2021_ulkomaan_kansalaisia  309 non-null    float64
+ 12  2022_ulkomaan_kansalaisia  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                 Non-Null Count  Dtype  
+---  ------                 --------------  -----  
+ 0   City                   309 non-null    object 
+ 1   2011_keski_ika_naiset  309 non-null    float64
+ 2   2012_keski_ika_naiset  309 non-null    float64
+ 3   2013_keski_ika_naiset  309 non-null    float64
+ 4   2014_keski_ika_naiset  309 non-null    float64
+ 5   2015_keski_ika_naiset  309 non-null    float64
+ 6   2016_keski_ika_naiset  309 non-null    float64
+ 7   2017_keski_ika_naiset  309 non-null    float64
+ 8   2018_keski_ika_naiset  309 non-null    float64
+ 9   2019_keski_ika_naiset  309 non-null    float64
+ 10  2020_keski_ika_naiset  309 non-null    float64
+ 11  2021_keski_ika_naiset  309 non-null    float64
+ 12  2022_keski_ika_naiset  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   City                309 non-null    object 
+ 1   2011_vaestontiheys  309 non-null    float64
+ 2   2012_vaestontiheys  309 non-null    float64
+ 3   2013_vaestontiheys  309 non-null    float64
+ 4   2014_vaestontiheys  309 non-null    float64
+ 5   2015_vaestontiheys  309 non-null    float64
+ 6   2016_vaestontiheys  309 non-null    float64
+ 7   2017_vaestontiheys  309 non-null    float64
+ 8   2018_vaestontiheys  309 non-null    float64
+ 9   2019_vaestontiheys  309 non-null    float64
+ 10  2020_vaestontiheys  309 non-null    float64
+ 11  2021_vaestontiheys  309 non-null    float64
+ 12  2022_vaestontiheys  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column               Non-Null Count  Dtype  
+---  ------               --------------  -----  
+ 0   City                 309 non-null    object 
+ 1   2011_suomenkielisia  309 non-null    float64
+ 2   2012_suomenkielisia  309 non-null    float64
+ 3   2013_suomenkielisia  309 non-null    float64
+ 4   2014_suomenkielisia  309 non-null    float64
+ 5   2015_suomenkielisia  309 non-null    float64
+ 6   2016_suomenkielisia  309 non-null    float64
+ 7   2017_suomenkielisia  309 non-null    float64
+ 8   2018_suomenkielisia  309 non-null    float64
+ 9   2019_suomenkielisia  309 non-null    float64
+ 10  2020_suomenkielisia  309 non-null    float64
+ 11  2021_suomenkielisia  309 non-null    float64
+ 12  2022_suomenkielisia  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                 Non-Null Count  Dtype  
+---  ------                 --------------  -----  
+ 0   City                   309 non-null    object 
+ 1   2011_vakiluvun_muutos  309 non-null    float64
+ 2   2012_vakiluvun_muutos  309 non-null    float64
+ 3   2013_vakiluvun_muutos  309 non-null    float64
+ 4   2014_vakiluvun_muutos  309 non-null    float64
+ 5   2015_vakiluvun_muutos  309 non-null    float64
+ 6   2016_vakiluvun_muutos  309 non-null    float64
+ 7   2017_vakiluvun_muutos  309 non-null    float64
+ 8   2018_vakiluvun_muutos  309 non-null    float64
+ 9   2019_vakiluvun_muutos  309 non-null    float64
+ 10  2020_vakiluvun_muutos  309 non-null    float64
+ 11  2021_vakiluvun_muutos  309 non-null    float64
+ 12  2022_vakiluvun_muutos  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                   Non-Null Count  Dtype  
+---  ------                   --------------  -----  
+ 0   City                     309 non-null    object 
+ 1   2011_vakiluvun_muutos_p  309 non-null    float64
+ 2   2012_vakiluvun_muutos_p  309 non-null    float64
+ 3   2013_vakiluvun_muutos_p  309 non-null    float64
+ 4   2014_vakiluvun_muutos_p  309 non-null    float64
+ 5   2015_vakiluvun_muutos_p  309 non-null    float64
+ 6   2016_vakiluvun_muutos_p  309 non-null    float64
+ 7   2017_vakiluvun_muutos_p  309 non-null    float64
+ 8   2018_vakiluvun_muutos_p  309 non-null    float64
+ 9   2019_vakiluvun_muutos_p  309 non-null    float64
+ 10  2020_vakiluvun_muutos_p  309 non-null    float64
+ 11  2021_vakiluvun_muutos_p  309 non-null    float64
+ 12  2022_vakiluvun_muutos_p  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                                              Non-Null Count  Dtype  
+---  ------                                              --------------  -----  
+ 0   City                                                309 non-null    object 
+ 1   2011_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 2   2012_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 3   2013_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 4   2014_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 5   2015_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 6   2016_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 7   2017_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 8   2018_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 9   2019_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 10  2020_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 11  2021_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    float64
+ 12  2022_alueella_asuvia_jotka_ovat_syntyneet_alueella  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                 Non-Null Count  Dtype  
+---  ------                 --------------  -----  
+ 0   City                   309 non-null    object 
+ 1   2011_keski_ika_miehet  309 non-null    float64
+ 2   2012_keski_ika_miehet  309 non-null    float64
+ 3   2013_keski_ika_miehet  309 non-null    float64
+ 4   2014_keski_ika_miehet  309 non-null    float64
+ 5   2015_keski_ika_miehet  309 non-null    float64
+ 6   2016_keski_ika_miehet  309 non-null    float64
+ 7   2017_keski_ika_miehet  309 non-null    float64
+ 8   2018_keski_ika_miehet  309 non-null    float64
+ 9   2019_keski_ika_miehet  309 non-null    float64
+ 10  2020_keski_ika_miehet  309 non-null    float64
+ 11  2021_keski_ika_miehet  309 non-null    float64
+ 12  2022_keski_ika_miehet  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 13 columns):
+ #   Column                              Non-Null Count  Dtype  
+---  ------                              --------------  -----  
+ 0   City                                309 non-null    object 
+ 1   2011_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 2   2012_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 3   2013_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 4   2014_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 5   2015_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 6   2016_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 7   2017_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 8   2018_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 9   2019_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 10  2020_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 11  2021_keski_ika_molemmat_sukupuolet  309 non-null    float64
+ 12  2022_keski_ika_molemmat_sukupuolet  309 non-null    object 
+dtypes: float64(11), object(2)
+memory usage: 31.5+ KB
+####################
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 309 entries, 0 to 308
+Data columns (total 12 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   City    309 non-null    object
+ 1   Y2021   309 non-null    int32 
+ 2   Y2022   309 non-null    int32 
+ 3   Y2023   309 non-null    int32 
+ 4   Y2024   309 non-null    int32 
+ 5   Y2025   309 non-null    int32 
+ 6   Y2026   309 non-null    int32 
+ 7   Y2027   309 non-null    int32 
+ 8   Y2028   309 non-null    int32 
+ 9   Y2029   309 non-null    int32 
+ 10  Y2030   309 non-null    int32 
+ 11  Y2031   309 non-null    int32 
+dtypes: int32(11), object(1)
+memory usage: 15.8+ KB
